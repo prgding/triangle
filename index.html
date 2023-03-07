@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>三角形</title>
+		<link type="text/css" rel="stylesheet" href="css/styles.css"/>
+		<script src="script/script.js"></script>
+	</head>
+	<body>
+		<h1>三角形检查器</h1>
+		<form>
+			<label for="side1">边长 a:</label>
+			<input type="number" id="side1" name="side1"><br><br>
+
+			<label for="side2">边长 b:</label>
+			<input type="number" id="side2" name="side2"><br><br>
+
+			<label for="side3">边长 c:</label>
+			<input type="number" id="side3" name="side3"><br><br>
+
+		</form>
+		<br>
+		<div>
+			<input type="button" value="检查" onclick="checkTriangle()">
+			<input type="button" value="显示规则" onclick="showRules()">
+			<input type="button" value="清空" onclick="Clear()">
+		</div>
+		<br><br>
+		<p id="result"></p>
+
+	</body>
+</html>
