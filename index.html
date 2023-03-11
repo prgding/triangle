@@ -8,14 +8,14 @@
 		<script src="script/script.js"></script>
 	</head>
 	<body>
-		<h1 class="slide-in-bottom">三角形检查器</h1>
+		<h1 class="slide-in-bottom">三角形类型判断</h1>
 		<form class="slide-in-left">
 			<label for="side1">边长 a:</label>
-			<input type="number" id="side1" name="side1"><br>
+			<input type="number" id="side1" name="side1" onclick="clearResult()" onkeydown=""><br>
 			<label for="side2">边长 b:</label>
-			<input type="number" id="side2" name="side2"><br>
+			<input type="number" id="side2" name="side2" onclick="clearResult()"><br>
 			<label for="side3">边长 c:</label>
-			<input type="number" id="side3" name="side3">
+			<input type="number" id="side3" name="side3" onclick="clearResult()">
 		</form>
 		<div class="slide-in-top">
 			<a class="button is-spring mr-3" href="#" onclick="checkTriangle()">检查</a>
