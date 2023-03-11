@@ -21,7 +21,7 @@ function checkTriangle() {
 function showRules() {
 	document.getElementById("result").innerText = "三角形问题规则：\n\n" +
 		"1. a, b, c 均大于0\n" +
-		"2. a + b > c, b + c > a, c + a > b"
+		"2. a + b > c, b + c > a, c + a > b";
 }
 
 function Clear() {

@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+
+}
+
+label {
+
+    font-size: 18px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    width: 200px;
+}
+
+div {
+    padding-top: 80px;
+    text-align: center;
+}
+
+#result {
+    padding-top: 50px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.slide-in-top {
+    animation: slide-in-top 1s forwards;
+
+}
+
+.slide-in-bottom {
+    animation: slide-in-bottom 1s forwards;
+}
+
+.slide-in-left {
+    animation: slide-in-left 1s forwards;
+}
+
+.slide-in-right {
+    animation: slide-in-right 1s forwards;
+}
+
+@keyframes slide-in-top {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-bottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
