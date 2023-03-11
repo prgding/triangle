@@ -4,6 +4,9 @@ body {
     padding-top: 80px;
     width: 600px;
     margin: 0 auto;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 form {
@@ -30,8 +33,9 @@ label {
 input[type="number"] {
     padding: 10px;
     margin: 10px;
+    background-color: transparent;
     border-radius: 5px;
-    border: 2px solid darkgrey;
+    border: 2px solid black;
     width: 200px;
 }
 
@@ -43,6 +47,8 @@ div {
 #result {
     padding-top: 50px;
     font-size: 24px;
+    color: yellow;
+    font-weight: bold;
     margin-top: 20px;
 }
 
